@@ -1,0 +1,385 @@
+* {
+    box-sizing: border-box;
+}
+
+#menu-empresa {
+    background-color: #A3A656;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menu-empresa ul {
+    padding-left: 70px;
+    display: inline;
+}
+
+
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url(../fuentes/Inter-Regular.ttf);
+}
+
+#menu-empresa a{
+    color: #000000;
+    font-family: Inter-Regular;
+    text-decoration: none;
+}
+
+#menu-empresa a :hover{
+    color:  #FFFF00;
+}
+
+
+#menu-empresa ul li {
+    padding: 0px 27px 0px 0px;
+    font-family: Inter-Regular;
+    font-size: 16px;
+}
+
+header section ul {
+    list-style-type: none;
+    margin: 0px;
+}
+
+header section ul li {
+    display: inline-block;
+}
+
+#contenedorIconos {
+    height: 70px;
+    padding-right: 15px;
+    justify-content: center;
+}
+
+#contenedorIconos div {
+    display: inline;
+    padding-left: 40px;
+    margin: 0 auto;
+}
+
+
+#contenedorIconos img {
+    display: inline-block;
+    position: relative;
+    top: 8px;
+    padding: 0px 4px;
+}
+
+#contenedorIconos p {
+    display: inline-block;
+    position: relative;
+    bottom: 4px;
+    text-align: center;
+    font-size: 12px;
+    font-family: Inter-Regular;
+}
+
+/* Main*/
+@font-face {
+    font-family: 'Romanesco';
+    src: url(../fuentes/Romanesco-Regular.ttf);
+}
+
+#spa {
+    margin-top: 0px;
+    height: 664px;
+    background-image: url(../imagenes/main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 180px 0px 0px 185px;
+}
+
+#titulo-spa p {
+    font-family: Romanesco;
+    font-size: 96px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: 'Inter-SemiBold';
+    src: url(../fuentes/Inter-SemiBold.ttf);
+}
+
+#parrafo-motivacion {
+    font-family: Inter-SemiBold;
+    font-size: 32px;
+}
+
+#barra-reservacion {
+    height: 100px;
+    text-align: center;
+    padding-top: 25px;
+    background-color: #F2F6F6;
+}
+
+#barra-reservacion input {
+    font-size: 16px;
+    margin-right: 35px;
+    margin-left: 10px;
+    border-radius: 15px;
+    padding: 15px;
+    border: 1px solid #F2F6F6;
+}
+
+#barra-reservacion label {
+    font-family: Inter-Regular;
+}
+
+#contenido-masajes {
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    padding-left: 69px;
+}
+
+.card header {
+    padding-top: 17px;
+    width: 350px;
+    height: 72px;
+    text-align: center;
+    background-color: #A3A656;
+    font-family: Inter-SemiBold;
+    font-size: 32px;
+    color: #F2F6F6;
+    border-radius: 15px 15px 0px 0px;
+}
+
+#contenido-masajes article {
+    width: 33%;
+    display: inline-block;
+    padding: 0px 134px 0px 0px;
+}
+
+#contenido-masajes p {
+    font-size: 18px;
+}
+
+#contenido-masajes h1 {
+    display: inline-block;
+    font-family: Inter-SemiBold;
+    margin-left: 20px;
+    font-size: 32px;
+}
+
+#contenido-masajes button {
+    width: 150px;
+    background-color: #A3A656;
+    font-size: 16px;
+    padding: 15px;
+    color: #F2F6F6;
+    float: right;
+    border-radius: 35px;
+    margin-top: 25px;
+    border: 1px solid #A3A656;
+}
+
+
+.contenido a{
+    color: #F2F6F6;
+    text-decoration: none;
+}
+
+
+.contenido a:hover{
+    color: #384001;
+}
+
+
+
+input[name="reservar-cita"]::placeholder{
+    color: Inter-Regular;
+    font-family: 'Inter-Regular';
+    Color: #9E9A9A
+}
+
+/*Membreias*/
+
+#membresias {
+    width: 100%;
+    height: 770px;  
+    background-color: #F2F6F6;
+    
+}
+
+@font-face {
+    font-family:'Inter-Bold';
+    src: url(../fuentes/Inter-Bold.ttf);
+}
+
+#membresias h1{
+    text-align: center; 
+    font-family: Inter-SemiBold;
+    font-size: 32px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+
+
+#membresias article{
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px; 
+    padding-left: 140px;
+}
+
+.contenedor-membresias{
+    display: inline-block;
+    width: 33%;
+    height: 620px;
+    
+}
+
+
+.contenedor-membresias-imagenes{
+    height: 255px;
+    width: 255px;
+    background-color: #FFF;
+    border-radius: 50%;    
+    border: 11px solid #384001;
+}
+
+.contenedor-membresias-imagenes img{
+    padding-top: 55px;
+}
+
+
+
+.contenedor-membresias-titulo h1{
+    width: 250px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.contenedor-membresias button{
+    width: 255px;
+    background-color: #A3A656;
+    font-size: 16px;
+    padding: 17px;
+    color: #F2F6F6;
+    border-radius: 35px;
+    font-family: Inter-Regular;
+    border: 1px solid #A3A656;
+}
+
+.contenedor-membresias-button a{
+    background-color: #A3A656;
+    text-decoration: none;
+}
+
+
+
+.contenedor-membresias-button a{
+    color: #F2F6F6;
+    text-decoration: none;
+}
+
+
+.contenedor-membresias-button a:hover{
+    color: #384001;
+}
+
+.contenedor-membresias .contenedor-membresias-informacion  {
+    height: 160px;
+    width: 255px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.contenedor-membresias .contenedor-membresias-informacion  {
+    font-family: Inter-Regular;
+    font-size: 14px;
+}
+
+
+
+/* footer*/
+footer{
+    width: 100%;
+    height: 97px;
+    background-color: #384001;
+    
+}
+
+
+footer div{
+    display: inline;
+    box-sizing: border-box;
+}
+
+footer div ul{
+    display: inline-block;
+    text-decoration: none;
+    padding-top: 25px;
+}
+
+
+footer div ul li{
+    font-family: Inter-Regular;
+    font-size: 16px;
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 34px;
+    
+}
+
+
+footer a{
+    color: #A3A656;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #FFFF00;
+}
+
+
+
+footer #navegacion-pie{
+    width: 70%;
+    padding-right: 0px;
+    padding-left: 70px;
+}
+
+footer #navegacion-pie ul{
+    margin: 0px;
+    padding: 25px 0px 0px 0px;
+    box-sizing: border-box;
+}
+
+
+footer #navegacion-pie ul li{
+    padding-right: 80px;
+}
+
+
+footer #navegacion-pie-adicional{
+    padding-left: 0px;
+    
+}
+
+
+
+footer #navegacion-redes{
+    position: absolute;
+    padding-top: 2px;
+    width: 20%;
+    
+}
+
+
+footer #navegacion-redes ul{
+    box-sizing: border-box;
+    margin: 0px;
+    
+}
+
+footer #navegacion-redes ul li{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
